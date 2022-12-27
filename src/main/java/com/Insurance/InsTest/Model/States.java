@@ -19,6 +19,14 @@ public class States {
 	@Column(name="StateName")
 	private String StateName;
 	
+
+	@Column(name="StateCode")
+	private String StateCode;
+	
+	@Column(name="CountryId")
+	private String CountryId;
+	
+	
 	public long getStateId() {
 		return StateId;
 	}
@@ -51,10 +59,6 @@ public class States {
 		CountryId = countryId;
 	}
 
-	@Column(name="StateCode")
-	private String StateCode;
-	
-	@Column(name="CountryId")
-	private String CountryId;
+
 	
 }
