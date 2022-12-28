@@ -1,0 +1,55 @@
+2022-12-28 16:04:14,829 [INFO] com.Insurance.InsTest.InsTestApplication [main] Starting InsTestApplication using Java 17.0.4.1 with PID 4740 (C:\Users\varun s\git\MyInsurance1\target\classes started by varun s in C:\Users\varun s\git\MyInsurance1)
+2022-12-28 16:04:14,834 [INFO] com.Insurance.InsTest.InsTestApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-28 16:04:15,994 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-28 16:04:16,140 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 124 ms. Found 6 JPA repository interfaces.
+2022-12-28 16:04:17,248 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9191 (http)
+2022-12-28 16:04:17,274 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-28 16:04:17,276 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-28 16:04:17,494 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-28 16:04:17,496 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2516 ms
+2022-12-28 16:04:17,805 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-28 16:04:17,915 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-28 16:04:18,244 [WARN] org.hibernate.orm.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-28 16:04:18,432 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-28 16:04:18,705 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@aa752bb
+2022-12-28 16:04:18,710 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-28 16:04:18,765 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-28 16:04:20,324 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-28 16:04:20,338 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 16:04:21,026 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-28 16:04:21,705 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9191 (http) with context path ''
+2022-12-28 16:04:21,726 [INFO] com.Insurance.InsTest.InsTestApplication [main] Started InsTestApplication in 7.634 seconds (process running for 8.333)
+2022-12-28 16:04:26,355 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9191-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-28 16:04:26,357 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9191-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-12-28 16:04:26,359 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9191-exec-1] Completed initialization in 1 ms
+2022-12-28 16:04:26,412 [INFO] com.Insurance.InsTest.Controller.CommonController [http-nio-9191-exec-1] [getAllCountry] to get all country list 
+2022-12-28 16:04:26,412 [DEBUG] com.Insurance.InsTest.Controller.CommonController [http-nio-9191-exec-1] debug msg
+2022-12-28 16:04:26,412 [ERROR] com.Insurance.InsTest.Controller.CommonController [http-nio-9191-exec-1] error msg
+2022-12-28 16:44:23,651 [INFO] com.Insurance.InsTest.InsTestApplication [main] Starting InsTestApplication using Java 17.0.4.1 with PID 12888 (C:\Users\varun s\git\MyInsurance1\target\classes started by varun s in C:\Users\varun s\git\MyInsurance1)
+2022-12-28 16:44:23,655 [INFO] com.Insurance.InsTest.InsTestApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-28 16:44:24,843 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-28 16:44:24,988 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 125 ms. Found 6 JPA repository interfaces.
+2022-12-28 16:44:26,056 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9191 (http)
+2022-12-28 16:44:26,071 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-28 16:44:26,071 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-28 16:44:26,295 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-28 16:44:26,297 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2499 ms
+2022-12-28 16:44:26,584 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-28 16:44:26,678 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-28 16:44:26,938 [WARN] org.hibernate.orm.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-28 16:44:27,104 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-28 16:44:27,452 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4217bce6
+2022-12-28 16:44:27,456 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-28 16:44:27,504 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-28 16:44:29,093 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-28 16:44:29,105 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 16:44:29,810 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-28 16:44:30,470 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9191 (http) with context path ''
+2022-12-28 16:44:30,490 [INFO] com.Insurance.InsTest.InsTestApplication [main] Started InsTestApplication in 7.505 seconds (process running for 8.217)
+2022-12-28 16:44:35,688 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9191-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-28 16:44:35,689 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9191-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-12-28 16:44:35,691 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9191-exec-2] Completed initialization in 2 ms
+2022-12-28 16:44:35,734 [INFO] com.Insurance.InsTest.Controller.CommonController [http-nio-9191-exec-2] [getAllCountry] to get all country list 
+2022-12-28 16:44:35,735 [DEBUG] com.Insurance.InsTest.Controller.CommonController [http-nio-9191-exec-2] debug msg
+2022-12-28 16:44:35,735 [ERROR] com.Insurance.InsTest.Controller.CommonController [http-nio-9191-exec-2] error msg
+2022-12-28 16:44:35,735 [TRACE] com.Insurance.InsTest.Controller.CommonController [http-nio-9191-exec-2] trace msg
